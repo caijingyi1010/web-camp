@@ -1,0 +1,129 @@
+*{
+    margin:0;padding:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align:center;
+}
+body{
+    background-image: url(sky.jpg);
+}
+
+.head{
+    margin:55px auto 30px auto;
+    height:500px;
+    width: 430px;
+    border: 1px solid white;
+    background-color: white;
+}
+.SignHeader{
+    margin:30px auto 0 auto;
+    color:#0084FF;
+    font-family: "黑体";
+    font-size: 23px;
+}
+img{
+    width:100px;
+    height:100px;
+    align:center;
+}
+
+
+.Signslogen{
+    margin:18px auto 38px auto;
+
+}
+
+.tel{
+    
+}
+.num{
+    margin:auto 0 auto 33px;
+    float:left;
+    height:45px;
+    width:110px;
+}
+.telnum{
+    float:right;
+    height:45px;
+    width:245px;
+    text-align: left;
+}
+.mess{
+    width:450px;
+    height:60px;
+}
+.message{
+    margin: auto 43px;
+    border:0 solid #EBEBEB;
+    border-bottom:1px solid #EBEBEB;
+    float:left;
+}
+.getmess{
+    margin: auto 65px auto auto;
+    border:0 solid #EBEBEB;
+    border-bottom:1px solid #EBEBEB;
+    float:right;
+    font-size:14px;
+    /*color:#175199;*/
+}
+input{
+    border: 0;
+    border-bottom: 1px solid #EBEBEB;
+    padding:10px 0 0 0;
+}
+.message input{
+    width:200px;
+}
+.telnum input{
+    width:200px;
+}
+
+.voice{
+    float:right;
+    margin:30px 45px 30px auto;
+    font-size:14px;
+}
+.register{
+    width:350px;
+    height:40px;
+    font-size: 15px;
+    background-color:#0077E6;
+    color:white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.zhuce{
+    margin: 30px auto 80px 45px;
+    font-size:14px;
+}
+.xieyi{
+    float:left;
+    color:#8590A6;
+}
+.jigouhao{
+    float:right;
+    margin:auto 40px auto auto;
+    color:#175199;
+}
+.getmess a:link,.getmess a:visited,.getmess a:active,.getmess a:hover,
+.login a:link,.login a:visited,.login a:active,.login a:hover,
+.jigouhao a:link,.jigouhao a:visited,.jigouhao a:active,.jigouhao a:hover{
+    text-decoration: none;
+    color: #175199;
+    }
+.voice a:link,.voice a:visited,.voice a:active,.voice a:hover,
+.xieyi a:link,.xieyi a:visited,.xieyi a:active,.xieyi a:hover{
+    text-decoration: none;
+    color: #8590A6;
+}
+.login{
+    height:56px;
+    background-color:#F6F6F6;
+    border:1px solid #ebebeb;
+}
+.logina{
+    font-family:"黑体";
+    font-size:16px;
+    margin:20px auto auto auto;
+}
+
